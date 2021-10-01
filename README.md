@@ -1,7 +1,6 @@
 USC EE450 Socket Programming Project
-a. Name: Xiaoxu Wu
-b. ID: 5421-5788-63
-c. In this project, I implemented a simple application to generate recommendations based on user queries, which consists of four parts, Client, the Main server, Backend server A, Backend server B. the client sends queries to the main server, then the main server further sends those queries to their corresponding backend servers (A or B). The backend server will perform local computation to generate recommendations based on its own database and sends recommendations back to the main server. The main server then sends recommendations back to the corresponding client. 
+
+In this project, I implemented a simple application to generate recommendations based on user queries, which consists of four parts, Client, the Main server, Backend server A, Backend server B. the client sends queries to the main server, then the main server further sends those queries to their corresponding backend servers (A or B). The backend server will perform local computation to generate recommendations based on its own database and sends recommendations back to the main server. The main server then sends recommendations back to the corresponding client. 
 d. Code files:
 	1. client.cpp
 		-create TCP connection with main server
